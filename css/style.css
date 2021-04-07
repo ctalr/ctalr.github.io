@@ -1,0 +1,56 @@
+body {
+  background-color: #000629;
+}
+li {
+  padding-bottom: 10px
+}
+#main {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #C0DDEC;
+}
+#glyph {
+  width: 100px;
+  margin: 6px;
+  vertical-align: text-top;
+}
+#hello {
+  font-size: 100px;
+  font-weight: bold;
+  color: #FFCD63;
+  background-color: #000C51;
+  margin: -8px;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 10px;
+}
+#content {
+}
+#glider {
+  vertical-align: text-bottom;
+}
+#ciao {
+  margin-top: 30px;
+}
+.blurb {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 700px;
+}
+.big {
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFCD63;
+  background-color: #000C51;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: max-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.highlight {
+  color: #000C51;
+  background-color: #FFCD63;
+  font-weight: bold;
+}
