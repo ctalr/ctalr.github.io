@@ -1,5 +1,9 @@
 body {
   background-color: #000629;
+  background-image: url("../img/topography.svg");
+}
+a, a:hover, a:visited {
+  color: #FFCD63;
 }
 li {
   padding-bottom: 10px
@@ -53,4 +57,7 @@ li {
   color: #000C51;
   background-color: #FFCD63;
   font-weight: bold;
+}
+.small {
+  font-size: 12px;
 }
