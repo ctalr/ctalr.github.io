@@ -29,11 +29,13 @@ li {
   margin-top: -8px;
   margin-bottom: 30px;
   box-shadow: 0px 5px 10px;
+  image-rendering: pixelated;
 }
 #content {
 }
 #glider {
   vertical-align: bottom;
+  image-rendering: pixelated;
 }
 #ciao {
   margin-top: 30px;
