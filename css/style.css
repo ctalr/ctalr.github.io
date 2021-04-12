@@ -23,14 +23,17 @@ li {
   font-weight: bold;
   color: #FFCD63;
   background-color: #000C51;
-  margin: -8px;
+  background-image: url("../img/topography_alt.svg");
+  width: 110%;
+  margin-left: -8px;
+  margin-top: -8px;
   margin-bottom: 30px;
   box-shadow: 0px 5px 10px;
 }
 #content {
 }
 #glider {
-  vertical-align: text-bottom;
+  vertical-align: bottom;
 }
 #ciao {
   margin-top: 30px;
@@ -49,9 +52,10 @@ li {
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  width: max-content;
+  width: min-content;
   margin-top: 20px;
   margin-bottom: 20px;
+  flex-shrink: 0;
 }
 .highlight {
   color: #000C51;
@@ -60,4 +64,10 @@ li {
 }
 .small {
   font-size: 12px;
+}
+
+@media only screen and (max-device-width: 400px) {
+  .big {
+    width: 100% !important;
+  }
 }
