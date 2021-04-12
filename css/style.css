@@ -72,4 +72,7 @@ li {
   .big {
     width: 100% !important;
   }
+  .blurb {
+    max-width: 100% !important;
+  }
 }
