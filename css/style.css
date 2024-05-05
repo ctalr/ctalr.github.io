@@ -66,6 +66,10 @@ li {
   margin-bottom: 20px;
   flex-shrink: 0;
 }
+.bold {
+  color: #FFCD63;
+  font-weight: bold;
+}
 .highlight {
   color: #000C51;
   background-color: #FFCD63;
